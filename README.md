@@ -18,7 +18,10 @@ The format of Label&Feature file as follows:
 - Id in this album
 - Feature
 
-### Code (in progress)  
+### Installation
+1. [LIBSVM](https://www.csie.ntu.edu.tw/~cjlin/libsvm/)  
+2. [XGBOOST](https://xgboost.readthedocs.io/en/latest/)
+3. python 2.7
 
 
 
