@@ -1,4 +1,5 @@
 Dataset.py -- Class of album, storage faces information
 load_test_data.py -- Load data from your file
 Evaluator & Evaluate -- Evaluate the performance of the algorithm
-Trainer -- the process of training short-term-reward,when you gaim a model, put it into the "Trainer_reward.py" to train Q-Function model.Finally, you can get a decision model.
+Trainer -- the process of training short-term-reward,when you gain a model, put it into the "Trainer_reward.py" to train Q-Function model.
+Finally, you can get a decision model.
