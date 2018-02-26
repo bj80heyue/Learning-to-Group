@@ -1,5 +1,4 @@
-Dataset.py -- 相冊類,存放待分類的照片
-load_test_data.py -- 將已有的數據填到Dataset實例中(這個裏邊有好多當時的dirty code,推薦根據自己的數據實現一下)
-Evaluator & Evaluate -- 評判算法性能的算法,分爲基於個體的和基於邊的,網上有定義.還有操作量的計算,操作量也可以自己定義.
-Trainer -- 訓練short-term-reward的代碼,將訓練好的模型代入Trainer_reward中,訓練Q-Function.然後就能得到決策模型了. 
-這個當時做實驗是幾個人一起完成的,所以代碼有些混亂,而且看起來不是很優雅,我還在慢慢整理(重構),但思路論文中說的比較清楚,照着文章中的思路來就可以了.還是蠻容易實現.
+Dataset.py -- Class of album, storage faces information
+load_test_data.py -- Load data from your file
+Evaluator & Evaluate -- Evaluate the performance of the algorithm
+Trainer -- the process of training short-term-reward,when you gaim a model, put it into the "Trainer_reward.py" to train Q-Function model.Finally, you can get a decision model.
