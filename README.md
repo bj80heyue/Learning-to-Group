@@ -7,11 +7,10 @@ Given a large number of unlabeled face images, face grouping aims at clustering 
 
 ### Dataset - GFW(Group Face in the Wild)
 
-You can download the dataset from [here](https://www.dropbox.com/s/aktxy4phqaevmr7/GFW_RELEASE.tar?dl=0)  
-In the main folder,each subfolder represents an album.  
-An album contains number of identities person(**id from 3 to N**).  
-Specially,"**id = 1**" means passerby(apperaed only once in the album),
-"**id = 2**" means low-quality faces which cannot be recognize as a normal human face.
+- You can download the dataset from [here](https://www.dropbox.com/s/aktxy4phqaevmr7/GFW_RELEASE.tar?dl=0)  
+- In the main folder,each subfolder represents an album.  
+- An album contains number of identities person(**id from 3 to N**).  
+- Specially,"**id = 1**" means passerby(apperaed only once in the album), "**id = 2**" means low-quality faces which cannot be recognize as a normal human face.
 
 The format of Label&Feature file as follows:
 - Image path
